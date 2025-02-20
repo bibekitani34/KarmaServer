@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/about', (req, res) => {
   res.send({
-    name: 'Archie Doe',
+    greetingMessage: 'Wow, thats an amazing job! You are almost there!',
     age: 30
   })
 })
